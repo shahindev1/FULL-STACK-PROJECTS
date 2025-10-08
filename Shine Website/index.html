@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shine.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid top-header">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <h4>Explore 300,000+ Jobs Now!</h4>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                <a href="#"><i class="bi bi-phone"></i>Download App</a>
+                <a href="#"><i class="bi bi-person"></i>For Employers</a>
+                <a href="#"><i class="bi bi-telephone"></i>Help</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2 border-bottom navbar-section">
+        <div class="row align-items-center">
+            <div class="col-md-2 text-center text-md-start mb-2 mb-md-0">
+                <img src="https://www.shine.com/next/static/images/shine-logo.png" alt="Logo" height="40;"
+                    class="shine-logo">
+            </div>
+            <div class="col-md-6 mb-2 mb-md-0">
+                <form class="d-flex nav-search mx-auto">
+                    <input class="form-control" type="search" placeholder="Job title, skills">
+                    <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <div class="trending mt-1">
+                    <span class="text-muted">Trending:</span>
+                    <span class="text-dark">Full-stack Developer | React Js | HR | Marketing | Business
+                        Development</span>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center justify-content-md-end align-items-center"
+                id="navbutton">
+                <button class="btn btn-outline-primary me-2">Login</button>
+                <button class="btn btn-register me-3">Register</button>
+                <i class="bi bi-bell me-3 fs-5"></i>
+                <i class="bi bi-cart fs-5"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid nav-bottom py-2 border-bottom text-center navselection">
+        <div class="row justify-content-center navselection">
+            <div class="col-auto dropdown">
+                <a href="#" class="nav-link " style="font-size: 11px">HOME</a>
+            </div>
+            <div class="col-auto dropdown">
+                <a href="#" class="nav-link dropdown-toggle" style="font-size: 11px">JOBS</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Search </a></li>
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Search By Catagories</a></li>
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Free Job Alerts</a></li>
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Job Search</a></li>
+                </ul>
+            </div>
+            <div class="col-auto dropdown">
+                <a href="#" class="nav-link dropdown-toggle" style="font-size: 11px">JOB SEEKING ASSISTANCE</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Resume Services</a></li>
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Interview Prep</a></li>
+                </ul>
+            </div>
+            <div class="col-auto dropdown">
+                <a href="#" class="nav-link dropdown-toggle" style="font-size: 11px">COURSES</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Data Analysis</a></li>
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Human Resoursce</a></li>
+                    <li><a class="dropdown-item" href="#" style="font-size: 11px">Java Full Stack Development</a></li>
+                </ul>
+            </div>
+            <div class="col-auto dropdown">
+                <a href="#" class="nav-link " style="font-size: 11px">CAREER GUIDANCE</a>
+            </div>
+            <div class="col-auto dropdown">
+                <a href="#" class="nav-link " style="font-size: 11px">BLOG</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <section style="margin-top: -15px;cursor: pointer">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://staticcand.shine.com/c/s1/images/candidate/banner/ama_prasad_web.webp"
+                        class="d-block w-100" alt="Loading">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticcand.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fama_neeraj_web.webp&w=1920&q=75"
+                        class="d-block w-100" alt="Loading">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticcand.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2Fama_web_banner.webp&w=1920&q=75"
+                        class="d-block w-100" alt="loading">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticcand.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2FQ4_24_desktop.webp&w=1920&q=75"
+                        class="d-block w-100" alt="loading">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticcand.shine.com%2Fc%2Fs1%2Fimages%2Fcandidate%2Fbanner%2FICICI_D.webp&w=1920&q=75"
+                        class="d-block w-100" alt="loading">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
+        <h1 style="text-align: center"><b>Cool Places to Work</b></h1><br>
+        <div class="row row-cols-2 row-cols-md-3 g-9 row-cols-sm-2 row-cols-lg-5"
+            style="display: flex;justify-content: center; padding-left: 80px;padding-right: 80px ">
+            <div class="col" style="height: 180px">
+                <div class="card h-100" style="width: 190px ;cursor: pointer">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F6dc953ccca074ea9aae8089a93b62cfe.webp&w=256&q=75"
+                        class="card-img-top" height="120" alt="..." style="width: 190px">
+                    <div class="card-body">
+                        <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Feb3dda5848094f3d8f3c510b7ea3ffac.webp&w=128&q=75"
+                            width="125px;" style="margin-left: 20px">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col" style="height: 180px">
+                <div class="card h-100" style="width: 190px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Fa36b33d676604e72ba5be98575967d86.webp&w=256&q=75"
+                        class="card-img-top" height="120" alt="..." style="width: 190px">
+                    <div class="card-body">
+                        <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F45bede0250f54d6ba87c56f537817d6e.webp&w=128&q=75"
+                            width="125px;" style="margin-left: 20px">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col" style="height: 180px">
+                <div class="card h-100" style="width: 190px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F0cf8f023a7d84073afef08d2aa92b878.jpg&w=256&q=75"
+                        class="card-img-top" height="120" alt="..." style="width: 190px">
+                    <div class="card-body">
+                        <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F4e68916d3a0b4bd8864811dcb6441660.jpg&w=128&q=75"
+                            width="125px;" style="margin-left: 20px">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col" style="height: 180px">
+                <div class="card h-100" style="width: 190px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F87ed195bb99b4cd0b3af6f585713785e.jpg&w=256&q=75"
+                        class="card-img-top" height="120" alt="..." style="width: 190px">
+                    <div class="card-body">
+                        <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F3ac58b428b2f4222a5340a2551bf8ded.jpg&w=128&q=75"
+                            width="125px;" style="margin-left: 20px">
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="height: 180px">
+                <div class="card h-100" style="width: 190px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Fbff4ce1d82444630b1e39880bb7b9269.webp&w=256&q=75"
+                        class="card-img-top" height="120" alt="..." style="width: 190px">
+                    <div class="card-body">
+                        <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Ff24d566c81574429aa5cb414de331104.webp&w=128&q=75"
+                            width="125px;" style="margin-left: 20px">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align: center"><b>Top Hiring Companies</b></h1><br>
+        <br>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-5 "
+            style="justify-content: center;padding-left: 100px;padding-right: 80px; ">
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px ;cursor: pointer">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F851571ef1f3f4ce080d4415e6c672875.jpg&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+
+                </div>
+            </div>
+            <div class="col" style="height:70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Fab28f0af876f42cb96302faaea9e1671.png&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F3ecf1cc1d6c14e588986fbe9f59b3dea.png&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F8ec12c71c03445248ec99942e16a812c.png&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F9f53b7d4345d41ac9b657b726b6b3349.png&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F666b83a3c4974b4f92613fce536a4251.png&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2Fa307d745fbbe46d3822e5b4e6f3fed55.png&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F462aacd44957452ca3035febee7af2f6.webp&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F264470edd81541d190bc774a279534aa.png&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F4e68916d3a0b4bd8864811dcb6441660.jpg&w=256&q=75"
+                        class="card-img-top" height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+            <div class="col" style="height: 70px">
+                <div class="card h-100" style="width: 150px">
+                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticrect.shine.com%2Fr%2Fm%2Fimages%2Femployerbranding%2F3c1f15da69e44967b5369b7faf9f85b9.png&w=256&q=75"
+                        height="70" alt="..." style="width: 150px">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br><br><br>
+    <article style="background-color: #f4f2ff">
+        <br><br>
+        <h1 style="text-align: center"><b>Expert Edge: Quick Snippets</b></h1>
+        <div class="container my-4 ">
+            <ul class="nav nav-tabs justify-content-center" id="categoryTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="sales-tab" data-bs-toggle="tab" data-bs-target="#sales"
+                        type="button" role="tab">Sales and Marketing</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="it-tab" data-bs-toggle="tab" data-bs-target="#it" type="button"
+                        role="tab">IT & Software</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="bfsi-tab" data-bs-toggle="tab" data-bs-target="#bfsi" type="button"
+                        role="tab">BFSI</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="categoryTabsContent">
+                <div class="tab-pane fade show active" id="sales" role="tabpanel">
+                    <div class="row text-center mt-4 cols-lg-6">
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="video-box">
+                                    <img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/Artboard_desktop.webp"
+                                        alt="Video" height="200px" width="360px">
+                                    <div class="play-icon">&#9658;</div>
+                                </div>
+                                <div class="card-body">
+                                    <p><img src="https://staticcand.shine.com/c/s1/images/candidate/banner/image_mskumar_web.webp"
+                                            class="profile-pic"> Rishabh Jain</p>
+                                    <p>Advance your product management career with expert insights.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="video-box">
+                                    <img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/Artboard_desktop.webp"
+                                        alt="Video" height="200px" width="360px">
+                                    <div class="play-icon">&#9658;</div>
+                                </div>
+                                <div class="card-body">
+                                    <p><img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/image_neerajathalye_web.webp"
+                                            class="profile-pic"> Ashish Gore</p>
+                                    <p>Leadership in Sales - From Ground level sales to VP.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="video-box">
+                                    <img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/Artboard_desktop.webp"
+                                        alt="Video" height="200px" width="360px">
+                                    <div class="play-icon">&#9658;</div>
+                                </div>
+                                <div class="card-body">
+                                    <p><img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/image_aparna_web.webp"
+                                            class="profile-pic"> Aparna Kapoor</p>
+                                    <p>Sales Leadership 101 - What it takes to lead and inspire.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="it" role="tabpanel">
+                    <div class="row text-center mt-4">
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="video-box">
+                                    <img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/Artboard_desktop.webp"
+                                        alt="Video" height="200px" width="360px">
+                                    <div class="play-icon">&#9658;</div>
+                                </div>
+                                <div class="card-body">
+                                    <p><img src="https://staticcand.shine.com/c/s1/images/candidate/banner/image_mskumar_web.webp"
+                                            class="profile-pic"> Rishabh Jain</p>
+                                    <p>Advance your product management career with expert insights.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="video-box">
+                                    <img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/Artboard_desktop.webp"
+                                        alt="Video" height="200px" width="360px">
+                                    <div class="play-icon">&#9658;</div>
+                                </div>
+                                <div class="card-body">
+                                    <p><img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/image_neerajathalye_web.webp"
+                                            class="profile-pic"> Ashish Gore</p>
+                                    <p>Leadership in Sales - From Ground level sales to VP.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="bfsi" role="tabpanel">
+                    <div class="row text-center mt-4">
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="video-box">
+                                    <img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/Artboard_desktop.webp"
+                                        alt="Video" height="200px" width="360px">
+                                    <div class="play-icon">&#9658;</div>
+                                </div>
+                                <div class="card-body">
+                                    <p><img src="https://candidate-static.s3.ap-south-1.amazonaws.com/c/s1/images/candidate/banner/image_neerajathalye_web.webp"
+                                            class="profile-pic"> Ashish Gore</p>
+                                    <p>Leadership in Sales - From Ground level sales to VP.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <br>
+    </article>
+    <section>
+        <br>
+        <h1 style="text-align: center"><b>Remote Jobs</b></h1>
+        <div class="container mt-5 cols-">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px;  margin:5px;">
+                                    <h5>Teacher Job</h5>
+                                    <p>Company: Matrixx India</p>
+                                    <p>Location: Bardhaman</p>
+                                    <p>Experience: 0 to 4 Years</p>
+                                    <p>Positions: 2</p>
+                                    <a href="#">Apply</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px;  margin:5px;">
+                                    <h5>Recruitment Executive</h5>
+                                    <p>Company: Arise Pvt Ltd</p>
+                                    <p>Location: Mumbai</p>
+                                    <p>Experience: 2 to 5 Years</p>
+                                    <p>Positions: 2</p>
+                                    <a href="#">Apply</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px; margin:5px;">
+                                    <h5>Data Entry Operator</h5>
+                                    <p>Company: Matrixx India</p>
+                                    <p>Location: Gandhinagar</p>
+                                    <p>Experience: 0 to 3 Years</p>
+                                    <p>Positions: 30</p>
+                                    <a href="#">Apply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px; margin:5px;">
+                                    <h5>Software Developer</h5>
+                                    <p>Company: Creative Minds</p>
+                                    <p>Location: Hyderabad</p>
+                                    <p>Experience: 1 to 3 Years</p>
+                                    <p>Positions: 3</p>
+                                    <a href="#">Apply</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px; margin:5px;">
+                                    <h5>Customer support</h5>
+                                    <p>Company: GrowHR</p>
+                                    <p>Location: Delhi</p>
+                                    <p>Experience: 0 to 2 Years</p>
+                                    <p>Positions: 1</p>
+                                    <a href="#">Apply</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px; margin:5px;">
+                                    <h5>Frontend Developer</h5>
+                                    <p>Company: CodeCraft</p>
+                                    <p>Location: Bangalore</p>
+                                    <p>Experience: 2 to 6 Years</p>
+                                    <p>Positions: 5</p>
+                                    <a href="#">Apply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <br><br>
+    </section>
+
+
+    <article style="background-color: #f4f2ff ">
+        <br><br>
+        <h1 style="text-align: center"><b>Walk in Jobs</b></h1>
+        <div class="container mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px;  margin:5px;">
+                                    <h5>Telemarket Executive</h5>
+                                    <p>Company: Matrixx India</p>
+                                    <p>Location: Bardhaman</p>
+                                    <p>Experience: 0 to 4 Years</p>
+                                    <p>Positions: 2</p>
+                                    <a href="#">Note Interested</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px;  margin:5px;">
+                                    <h5>Recruiters/HR Recruiters</h5>
+                                    <p>Company: Arise Pvt Ltd</p>
+                                    <p>Location: Mumbai</p>
+                                    <p>Experience: 2 to 5 Years</p>
+                                    <p>Positions: 2</p>
+                                    <a href="#">Not Interested</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div style="border:1px solid #ccc; border-radius:10px; padding:15px;  margin:5px;">
+                                    <h5>English Grammar Teachers</h5>
+                                    <p>Company: Arise Pvt Ltd</p>
+                                    <p>Location: Mumbai</p>
+                                    <p>Experience: 2 to 5 Years</p>
+                                    <p>Positions: 2</p>
+                                    <a href="#">Not Interested</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script><br><br>
+    </article>
+    <div style="height: 150px;background-color: #766abb">
+        <h1 style="text-align: center;color: white;display: flex;justify-content: center;padding: 20px"><b>Are You an
+                Employer?</b></h1>
+        <div style="display: flex;justify-content: center;justify-content: space-around">
+            <button class="btn btn-primary" type="submit"
+                style="width: 150;height: 50px;background-color: white;color: black"><b>Search You Hire</b></button>
+            <button class="btn btn-primary" type="submit"
+                style="width: 150;height: 50px;background-color: white;color: black"><b>Find a Job</b></button>
+            <button class="btn btn-primary" type="submit"
+                style="width: 150;height: 50px;background-color: white;color: black"><b>Conduct a Hackathon</b></button>
+
+        </div>
+    </div>
+    <br>
+    <h1 style="text-align: center"><b>Premium Services</b></h1>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div style="display: flex;justify-content: space-between; padding-left: 50px;padding-right: 50px">
+                    <div class="row row-cols-3 row-cols-md-3 row-cols-sm-3 g-4">
+                        <div class="col">
+                            <div class="card h-40">
+                                <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640935815_1767.png&w=384&q=75"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Application Highlighter</h4>
+                                    <p class="card-text">Highlight Your job application & improve visibility to
+                                        recruiter.Increase your Chance of getting a</p>
+                                    <h4><i class="bi bi-currency-rupee"></i>169</h4>
+                                    <br>
+                                    <br>
+                                    <a href="#">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-40">
+                                <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640925161_7427.png&w=384&q=75"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Featured Profile</h4>
+                                    <p class="card-text">Get More visibility in the recruters Searches by getting a
+                                        priority applicant tag with this service</p>
+                                    <h4><i class="bi bi-currency-rupee"></i>1999</h4>
+                                    <br>
+                                    <br>
+                                    <a href="#">Explore</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-40">
+                                <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640940094_8952.png&w=384&q=75"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Application Booster Package</h4>
+                                    <p class="card-text">Highlight Your job application & improve visibility to
+                                        recruiter.Increase your Chance of getting a</p>
+                                    <h4><i class="bi bi-currency-rupee"></i>169</h4>
+                                    <br>
+                                    <br>
+                                    <a href="#">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-3 row-cols-md-3 row-cols-sm-2 g-4">
+                <div class="carousel-item">
+                    <div style="display: flex;justify-content: space-between; padding-left: 50px;padding-right: 50px;">
+                        <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 g-4">
+                            <div class="col">
+                                <div class="card h-40">
+                                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1640940067_8280.png&w=384&q=75"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Resume Writing</h4>
+                                        <p class="card-text">Get a Professional resume written by experts.Highlight the
+                                            right skills & catch recruiter attention</p>
+                                        <h4><i class="bi bi-currency-rupee"></i>2199</h4>
+                                        <br>
+                                        <br>
+                                        <a href="#">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-40">
+                                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1641281065_6109.jpg&w=384&q=75"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Jobs on the Move</h4>
+                                        <p class="card-text">Customize weekly job alerts matching your criteria from all
+                                            leading portals & get hired faster</p>
+                                        <h4><i class="bi bi-currency-rupee"></i>3999</h4>
+                                        <br>
+                                        <br>
+                                        <a href="#">Explore</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-40">
+                                    <img src="https://www.shine.com/_next/image?url=https%3A%2F%2Fstaticlearn.shine.com%2Fl%2Fm%2Fproduct_image%2Fimages_all%2F1641281122_8323.jpg&w=384&q=75"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Improved Visibility Package</h4>
+                                        <p class="card-text">Specialized package to improve your visibility in recuiter
+                                            searches and resume shared with 1000+ recr</p>
+                                        <h4><i class="bi bi-currency-rupee"></i>3949</h4>
+                                        <br>
+                                        <br>
+                                        <a href="#">Explore</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <p style="text-align: center;">
+        <a href="#">View all</a>
+    </p>
+
+
+    <footer class="footer bg-light pt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2 mb-4">
+                    <img src="https://www.shine.com/next/static/images/shine-logo.png" alt="Logo"
+                        class="img-fluid mb-2">
+                    <p>Great career starts here!</p>
+                    <p><strong>Download Shine App</strong></p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Play_Arrow_logo.svg/768px-Google_Play_Arrow_logo.svg.png"
+                        class="icon me-2" alt="Google Play">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" class="icon"
+                        alt="Apple">
+                </div>
+
+                <div class="col-md-2 mb-4">
+                    <h6 class="title">Job Seekers</h6>
+                    <ul class="link">
+                        <li><a href="#" style="color: blue">Register / Login</a></li>
+                        <li><a href="#" style="color: blue">Job Search</a></li>
+                        <li><a href="#" style="color: blue">Create Free Job Alert</a></li>
+                        <li><a href="#" style="color: blue">Job Assistance Services</a></li>
+                        <li><a href="#" style="color: blue">Courses</a></li>
+                        <li><a href="#" style="color: blue">Fraud Alert</a></li>
+                    </ul>
+                    <h6 class="title mt-3">Employers</h6>
+                    <ul class="link">
+                        <li><a href="#" style="color: blue">Recruiter India</a></li>
+                        <li><a href="#" style="color: blue">Post Job</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h6 class="title">Trending Blogs</h6>
+                    <ul class="link">
+                        <li><a href="#" style="color: blue">Authorization Letter</a></li>
+                        <li><a href="#" style="color: blue">Write a Resignation</a></li>
+                        <li><a href="#" style="color: blue">Interview Questions</a></li>
+                        <li><a href="#" style="color: blue">Resume for Freshers</a></li>
+                        <li><a href="#" style="color: blue">View More</a></li>
+                    </ul>
+
+                    <h6 class="title mt-3">Trending Jobs</h6>
+                    <ul class="link">
+                        <li><a href="#" style="color: blue">Work From Home</a></li>
+                        <li><a href="#" style="color: blue">Handwriting Jobs</a></li>
+                        <li><a href="#" style="color: blue">Jobs in Ethiopia</a></li>
+                        <li><a href="#" style="color: blue">Jobs in Ludhiana</a></li>
+                        <li><a href="#" style="color: blue">View More</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mb-4">
+                    <h6 class="title">Partner Sites</h6>
+                    <ul class="link">
+                        <li><a href="#" style="color: blue">Hindustantimes.com</a></li>
+                        <li><a href="#" style="color: blue">Livemint.com</a></li>
+                        <li><a href="#" style="color: blue">Livehindustan.com</a></li>
+                        <li><a href="#" style="color: blue">OTTplay.com</a></li>
+                        <li><a href="#" style="color: blue">FAB Play</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h6 class="title">Contact Us</h6>
+                    <ul class="link">
+                        <li><a href="#" style="color: blue">080-1006 2222</a></li>
+                        <li><a href="#" style="color: blue">contactus@shine.com</a></li>
+                    </ul>
+                    <div class="d-flex mt-2">
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" class="icon me-2"
+                                alt="LinkedIn"></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" class="icon me-2"
+                                alt="Twitter"></a>
+                        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" class="icon"
+                                alt="Facebook"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center pb-3">
+                <p class="small mb-1">
+                    <a href="#">Feedback</a> |
+                    <a href="#">FAQs</a> |
+                    <a href="#">About Us</a> |
+                    <a href="#">Contact Us</a> |
+                    <a href="#">Privacy Policy</a> |
+                    <a href="#">Terms & Conditions</a> |
+                    <a href="#">Report a Job</a>
+                </p>
+                <p class="small">&copy; 2025 HT Media Limited</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

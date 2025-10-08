@@ -1,0 +1,295 @@
+.top-header {
+    background-color: #f4f5fa;
+    font-size: 14px;
+    padding: 10px 0;
+
+}
+
+.navbar-section {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.nav-bottom {
+    background-color: white;
+    position: sticky;
+    top: 124;
+    z-index: 100;
+}
+
+@media (max-width:600px) {
+    .navbar-section {
+        background-color: white;
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+    }
+}
+
+.navselection {
+    position: sticky;
+    top: 68px;
+}
+
+@media (max-width:600px) {
+    .navselection {
+        background-color: white;
+        position: sticky;
+        top: 135px;
+        z-index: 100;
+    }
+}
+
+@media (max-width:800px) {
+    .navselection {
+        background-color: white;
+        position: sticky;
+        top: 135px;
+        z-index: 100;
+    }
+}
+
+.nav-link dropdown-toggle {
+    font-size: 20px;
+    color: white;
+}
+
+.top-header a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.top-header i {
+    margin-right: 5px;
+}
+
+.nav-search {
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    right: 100px;
+}
+
+.trending {
+    font-size: 13px;
+}
+
+.nav-bottom a {
+    font-weight: 500;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.nav-bottom .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    font-size: 13px;
+    min-width: 180px;
+}
+
+.btn-register {
+    background-color: blue;
+    color: white;
+}
+
+.btn-register:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .top-header h4 {
+        font-size: 16px;
+    }
+
+    .top-header a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .trending {
+        display: none;
+    }
+
+    .btn-register,
+    .btn-outline-primary {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .nav-bottom a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .nav-bottom .dropdown:hover .dropdown-menu {
+        position: static;
+    }
+}
+
+@media (max-width: 1500px) {
+    .shine-logo {
+        position: relative;
+        left: 170px;
+        top: -15px;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .shine-logo {
+        position: relative;
+        left: -90px;
+        top: -15px;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 1071px) {
+    .shine-logo {
+        position: relative;
+        left: 40px;
+        top: -15px;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .shine-logo {
+        position: relative;
+        left: -40px;
+        top: -1px;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .shine-logo {
+        position: relative;
+        left: 1px;
+        top: -15px;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-search {
+        max-width: 400px;
+        width: 100%;
+        left: 30px;
+
+    }
+}
+
+@media (max-width:500px) {
+    #navbutton {
+        position: relative;
+        left: 150px;
+        top: -90px;
+    }
+}
+
+@media (max-width:1071px) {
+    #navbutton {
+        position: relative;
+        left: -250px;
+        top: -20px;
+    }
+}
+
+
+@media (max-width:2071px) {
+    #navbutton {
+        position: relative;
+        left: -20px;
+        top: 15px;
+    }
+}
+
+@media (max-width:4000px) {
+    #navbutton {
+        position: relative;
+        left: -300px;
+        top: -10px;
+    }
+}
+
+@media (max-width:800px) {
+    #navbutton {
+        position: relative;
+        left: 230px;
+        top: -35px;
+    }
+}
+
+@media (max-width:1000px) {
+    #navbutton {
+        position: relative;
+        left: 20px;
+        top: 1px;
+    }
+}
+
+.footer {
+    background-color: #f9f9fc;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.link {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.link li {
+    margin-bottom: 6px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 767px) {
+    .link {
+        padding-left: 15px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .footer .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
