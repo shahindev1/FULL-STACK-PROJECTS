@@ -1,0 +1,193 @@
+.nav-link,
+.dropdown-toggle {
+  font-size: 18px;
+  color: black;
+  font-family: cursiv;
+}
+
+.form-control {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border: 1px solid grey;
+  height: 35px;
+
+}
+
+.search-container {
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-control.rounded-pill {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.btn.rounded-pill {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.btn,
+.btn-outline-success {
+
+  position: relative;
+  right: 40px;
+  border: none;
+}
+
+.text-purple {
+  font-size: 20px;
+  font-family: cursiv;
+
+}
+
+.btnn,
+.btn-success {
+  height: 40px;
+  width: 100px;
+}
+
+.item {
+  color: white;
+  text-decoration: none;
+  padding: 0rem 1.7rem;
+  display: flex;
+  justify-items: auto;
+}
+
+.item:hover {
+  background-color: rgb(75, 85, 75);
+  color: rgb(10, 10, 10);
+}
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: 1rem;
+  }
+
+  .item {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .btn-sm {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px !important;
+  }
+
+  input[type="text"] {
+    font-size: 14px !important;
+    padding: 10px 14px !important;
+  }
+
+  button {
+    padding: 10px 14px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 36px !important;
+  }
+
+  pre {
+    font-size: 14px !important;
+  }
+
+  button {
+    font-size: 14px !important;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .kickstart {
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+  }
+}
+
+@media sceen and (max-width:2000px) {
+  .buttonpng {
+    position: relative;
+    right: 380px;
+    top: 30px;
+    height: 10px;
+  }
+
+}
+
+@media screen and (max-width:1000px) {
+  .forteachers {
+    height: 400px;
+    width: 470px;
+    margin-left: -100px;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .howtosection {
+    height: 500px;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .webtemplate {
+    height: 400px;
+    width: 670px;
+
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .login {
+    height: 500px;
+    width: 670px;
+
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .joinimg1 {
+    margin-left: -460px;
+    margin-top: 100px;
+
+  }
+}
+
+@media screen and (max-width:100px) {
+  .howtosection {
+    width: 500px;
+  }
+}
+
+/* svgwave */
+#wave {
+  position: absolute;
+  top: 320px;
+}
+
+@media (max-width:800px) {
+  #wave {
+    position: absolute;
+    top: 320;
+  }
+}
+
+@media (max-width:400px) {
+  #wave {
+    position: absolute;
+    top: 3300;
+  }
+}
